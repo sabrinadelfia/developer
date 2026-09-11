@@ -1,6 +1,4 @@
-import sys
-
-sys.path.append("./libs")from query import consultar
+from query import consultar
 
 print("=" * 60)
 print("RAG LOCAL")
@@ -19,3 +17,15 @@ while True:
     ]:
 
         break
+
+    resposta = consultar(
+        pergunta
+    )
+
+    print(
+        "\nResposta:\n"
+    )
+
+    print(
+        resposta
+    )
