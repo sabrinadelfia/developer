@@ -83,13 +83,13 @@ def main():
 
         except KeyboardInterrupt:
 
-            print("\n\n⚠ Sessão interrompida.")
+            print("\n\n⚠ Sessão alterei via main.")
             break
 
         except Exception as ex:
 
             print(
-                "\n❌ Erro durante a consulta:"
+                "\n❌ Erro durante a alterei via main:"
             )
 
             print(ex)
@@ -97,3 +97,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print("come on!!")
