@@ -4,7 +4,7 @@ from query import consultar
 
 BANNER = r"""
 ============================================================
-   ENTERPRISE LOCAL RAG ASSISTANT
+   NAO É EMPRESA LOCAL RAG ASSISTANT
    Retrieval Augmented Generation
 ============================================================
 """
@@ -13,8 +13,8 @@ BANNER = r"""
 def exibir_banner():
     print(BANNER)
     print(f"Data/Hora: {datetime.now():%d/%m/%Y %H:%M:%S}")
-    print("Digite 'sair' para encerrar.")
-    print("Digite 'limpar' para limpar a tela.")
+    print("Digite 'sair' para encerrar alterei via developer.")
+    print("Digite 'limpar' para limpar a alterei via developer.")
     print("=" * 60)
 
 
